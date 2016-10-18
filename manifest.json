@@ -1,0 +1,16 @@
+{
+  "name": "Editable content",
+  "description": "Make content of the page editable",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Edit content"
+  },
+  "manifest_version": 2
+}
